@@ -1,0 +1,19 @@
+# Calibration / homography outputs (regenerate locally, don't commit)
+calibration_data.npz
+homography_data.npz
+
+# Raw images (large binary files, likely camera-specific)
+*.dng
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
